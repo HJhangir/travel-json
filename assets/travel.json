@@ -1,0 +1,31 @@
+[
+    {
+        
+        "title": "Quba",
+        "body": "Quba (Guba) is a city and the administrative centre of the Quba District of Azerbaijan. The city lies on the north-eastern slopes of Shahdag mountain, at an altitude of 600 metres above sea level, on the right bank of the Kudyal river. It has a population of 38,100 (2010).",
+        "quba_img": "../assets/quba.jpg",
+
+        "shamaxi_title": "Shamakhi",
+        "shamaxi_body": "Is a city in Azerbaijan and the administrative centre of the Shamakhi District. The city's estimated population as of 2010 was 31,704. It is famous for its traditional dancers, the Shamakhi Dancers, and also for perhaps giving its name to the Soumak rugs.",
+        "shamaxi_img":"../assets/shamaxi.jpg",
+
+        "qax_title":"Qax",
+        "qax_body":"Gakh — a city in the Republic of Azerbaijan, the administrative center of Gakh district. Located in the north-west of our republic on an area of 1494 square kilometers, Gakh district borders Russia to the north, Zagatala to the north-west, Georgia to the west, Yevlakh and Samukh to the south, and Sheki district to the east.",
+        "qax_img":"../assets/qax.jpg",
+
+
+        "lenkaran_title": "Lankaran",
+        "lenkaran_body": "In general, all the described benefits of the wonderful resort of Lankaran will definitely allow you not to doubt the correctness of choosing this destination for your vacation. Lankaran is the treasure of Azerbaijan. Attractions.",
+        "lenkaran_img":"../assets/lenkaran.jpg",
+
+        "oguz_title":"Oguz",
+        "oguz_body":"Oguz region (Vartashen until 1991) was organized in 1930. In 1963-1965, the territory of Nukha (from 1968, Shaki) district was part of Oguz district. Oguz region is located in the Sheki-Zagatala economic region, on the southern slopes of the Greater Caucasus.",
+        "oguz_img":"../assets/oguz.png",
+
+        "gence_title":"Ganja",
+        "gence_body":"Ganja is the second largest city of Azerbaijan. The city of Ganja was called Yelizavetpol from 1804 to 1918. Although the name Ganja was restored in 1918, it was changed to Kirovabad on February 22, 1935. In 1989, the name of Ganja was restored. Since January 24, 1939, it has been a subordinate city of the republic.",
+        "gence_img":"../assets/gence.jpg"
+
+
+    }
+]

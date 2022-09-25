@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    /* outline:  1px solid red; */
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+    padding-top: 1%;
+    align-items: center;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    gap: 15px;
+    padding-bottom: 1%;
+
+}
+
+.nav a{
+    color: black;
+}
+
+.nav a:nth-child(5){
+    display: none;
+}
+.koko{
+    background: url(./winter.jpg);
+    width: 100%;
+    height: 115px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+
+
+}
+
+.koko pre{
+padding: 40px 0 0 0;
+color: white;
+
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 10px 0;
+
+}
+
+.center input {
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 25px;
+    width: 160px;
+    padding: 0 10px ;
+}
+.center select{
+    border: 1px solid grey;
+    border-radius: 20px;
+    
+}
+
+
+.quba_shamaxi, .lenkaran_oguz{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 1%;
+    
+}
+
+.quba, .shamaxi,.qax,.lenkaran,.oguz,.gence{   
+    flex-wrap: wrap;
+    width:20% ;
+    border: 1px solid rgb(238, 236, 236);
+    background: rgb(238, 236, 236);
+
+}
+
+
+footer{
+    background-color:  rgb(238, 236, 236);
+    margin-top: 2%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img img{
+    width: 150px;
+    padding: 15px;
+}
+
+
+.footer-link{
+display: flex;
+width: 100%;
+justify-content: center;
+
+}
+
+.footer-link a{
+    color: black;
+    
+}
+
+.contactus{
+    padding-left: 5% ;
+}
+.contactus a{
+    color: black;
+    padding-left: 2px;
+    
+}
+
+.contactus p{
+    padding-top: 55%;
+    font-weight: bold;
+}
+
+@media(max-width:550px){
+    .nav a{
+        display:none
+    }
+
+    .nav a:nth-child(5){
+        display: inline;
+    }
+
+    .quba_shamaxi, .lenkaran_oguz{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .quba, .shamaxi,.qax,.lenkaran,.oguz,.gence{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .quba img, .shamaxi img,.qax img ,.lenkaran img,.oguz img,.gence img{
+        min-width: 250px;   
+        height: 150px;   
+        max-width: 304px;
+    }
+
+
+
+}
+
+
+@media(max-width:768px){
+    .nav a{
+        display:none
+    }
+
+    .nav a:nth-child(5){
+        display: inline;
+    }
+
+    .quba_shamaxi, .lenkaran_oguz{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .quba , .shamaxi,.qax,.lenkaran,.oguz,.gence{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+        .quba img, .shamaxi img,.qax img ,.lenkaran img,.oguz img,.gence img{
+            min-width: 250px;   
+            height: 150px;   
+            width: 304px;
+        }
+        .quba p, .shamaxi p,.qax p,.lenkaran p,.oguz p,.gence p{
+            padding-top: 5%;
+        }
+
+}
+
+
+
+@media(max-width:1445px){
+
+    .quba , .shamaxi,.qax,.lenkaran,.oguz,.gence{
+        display: flex;
+        justify-content:center ;
+        width: 100%;
+    }
+
+    .quba img, .shamaxi img,.qax img ,.lenkaran img,.oguz img,.gence img{
+        height: 150px;
+        width: 100%;
+           
+
+    }
+    .quba p, .shamaxi p,.qax p,.lenkaran p,.oguz p,.gence p{
+        padding-top: 5%;
+    } 
+
+
+}
+
+
+
+
+
+
